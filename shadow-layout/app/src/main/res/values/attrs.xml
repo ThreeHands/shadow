@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ShadowLayout 阴影 -->
+    <declare-styleable name="ShadowLayout">
+        <!--内部内容区的圆角半径-->
+        <attr name="contentRadius" format="dimension" />
+        <!--内部内容区的背景颜色-->
+        <attr name="contentBackgroundColor" format="color" />
+        <!--内部内容区的圆角方向-->
+        <attr name="contentRadiusDirection">
+            <flag name="all" value="0x11111"/>
+            <flag name="noneRound" value="0x00001"/>
+            <flag name="topLeft" value="0x00010"/>
+            <flag name="topRight" value="0x00100"/>
+            <flag name="bottomRight" value="0x01000"/>
+            <flag name="bottomLeft" value="0x10000"/>
+        </attr>
+        <!--阴影颜色-->
+        <attr name="shadowColor" format="color" />
+        <!--阴影宽度-->
+        <attr name="shadowWidth" format="dimension" />
+        <!--阴影水平方向的偏移量-->
+        <attr name="shadowDx" format="dimension" />
+        <!--阴影垂直方向的偏移量-->
+        <attr name="shadowDy" format="dimension" />
+        <!--阴影形状-->
+        <attr name="shadowShape">
+            <flag name="rectangle" value="0x0001" />
+            <flag name="oval" value="0x0010" />
+        </attr>
+        <!--阴影边-->
+        <attr name="shadowSide">
+            <flag name="all" value="0x1111" />
+            <flag name="left" value="0x0001" />
+            <flag name="top" value="0x0010" />
+            <flag name="right" value="0x0100" />
+            <flag name="bottom" value="0x1000" />
+        </attr>
+    </declare-styleable>
+</resources>

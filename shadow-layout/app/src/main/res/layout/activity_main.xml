@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.shamo.shadow.widget.ShadowFrameLayout
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        app:shadowColor="#14212C62"
+        app:contentBackgroundColor="@android:color/white"
+        app:contentRadiusDirection="all"
+        app:shadowShape="rectangle"
+        app:shadowWidth="10dp"
+        app:shadowSide="all"
+        app:contentRadius="8dp"
+        app:shadowDx="0dp"
+        app:shadowDy="5dp" />
+
+    <com.shamo.shadow.widget.ShadowLinearLayout
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        app:shadowColor="#14212C62"
+        app:contentBackgroundColor="@android:color/white"
+        app:contentRadiusDirection="all"
+        app:shadowShape="rectangle"
+        app:shadowSide="all"
+        app:shadowWidth="10dp"
+        app:contentRadius="8dp"
+        app:shadowDx="0dp"
+        app:shadowDy="5dp" />
+
+    <com.shamo.shadow.widget.ShadowRelativeLayout
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        app:shadowColor="#14662C62"
+        app:contentBackgroundColor="@android:color/white"
+        app:contentRadiusDirection="all"
+        app:shadowShape="rectangle"
+        app:shadowWidth="10dp"
+        app:shadowSide="all"
+        app:contentRadius="8dp"
+        app:shadowDx="0dp"
+        app:shadowDy="5dp" />
+
+</LinearLayout>
